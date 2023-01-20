@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="page_title">Calculator:</h1>
+    </div>
+    <div id="info_dialog" class="info_dialog" state="hidden">
+        <!--Information Dialog-->
+        <div class="Header">
+            <div class="InfoGroup" title="Information about this page">
+                <button class="InfoButton" id="form_show_button">Biodata Form</button>
+            </div>
+        </div>
+        <div>
+            <p state="Hidden">
+                <div>
+                    <h2>
+                        CSC 310 Continuous Assessment Project<br /> Group 7
+                    </h2>
+                </div>
+                <p>
+                    <table>
+                        <tr>
+                            <td>Agbebi Paul Lawrence</td>
+                            <td>20CG028038</td>
+                            <td>Group Member</td>
+                        </tr>
+                        <tr>
+                            <td>EKWURUKE Nneoma </td>
+                            <td>20CG028075</td>
+                            <td>Group Member</td>
+                        </tr>
+                        <tr>
+                            <td>Faji Daniel Simioluwa</td>
+                            <td>20CG028083</td>
+                            <td>Group Member</td>
+                        </tr>
+                        <tr>
+                            <td>Adekunle Oluwatimilehin</td>
+                            <td>20CG028033</td>
+                            <td>Group Member</td>
+                        </tr>
+                        <tr>
+                            <td>Omoyiola Ayoola</td>
+                            <td>20CG028129</td>
+                            <td>Group Member</td>
+                        </tr>
+                        <tr>
+                            <td>Ajaero Somtochukwu</td>
+                            <td>20CH028147</td>
+                            <td>Group Member</td>
+                        </tr>
+                        <tr>
+                            <td>Ayoade ifedapo</td>
+                            <td>20CH028156</td>
+                            <td>Group Member</td>
+                        </tr>
+                    </table>
+                </p>
+            </p>
+        </div>
+    </div>
+    <div class="calculator">
+        <input type="text" id="display" class="display" disabled>
+        <div class="keys">
+            <div class="row">
+                <button value="7" class="number">7</button>
+                <button value="8" class="number">8</button>
+                <button value="9" class="number">9</button>
+                <button value="+" class="operator enum">+</button>
+            </div>
+            <div class="row">
+                <button value="4" class="number">4</button>
+                <button value="5" class="number">5</button>
+                <button value="6" class="number">6</button>
+                <button value="-" class="operator enum">-</button>
+            </div>
+            <div class="row">
+                <button value="1" class="number">1</button>
+                <button value="2" class="number">2</button>
+                <button value="3" class="number">3</button>
+                <button value="*" class="operator enum">*</button>
+            </div>
+            <div class="row">
+                <button value="C" class="operator" id="clear">C</button>
+                <button value="0" class="number">0</button>
+                <button value="/" class="operator enum">/</button>
+                <button value="=" class="operator" id="calculate">=</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
